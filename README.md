@@ -11,7 +11,7 @@
 
 ## Observaciones
 
-*Escribe aquí tus observaciones sobre la implementación*
+*volveré cuando aprenda js*
 
 > Puedes encontrar otros retos de Manz.dev en: <br>▶ https://lenguajejs.com/retos/
 
