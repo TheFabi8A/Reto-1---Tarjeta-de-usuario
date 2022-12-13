@@ -4,10 +4,10 @@
 
 ## Datos
 
-- 🦄 **Desarrollador/a:** *Nombre*
-- 🐇 **Link a red social:** *https://twitter.com/nombre*
-- 🦾 **Perfil:** *Novato / Bajo / Medio / Avanzado / Experto*
-- 💬 **Un comentario breve o frase ingeniosa**: *-*
+- 🦄 **Desarrollador/a:** *TheFabi8A*
+- 🐇 **Link a red social:** *https://twitter.com/TheFabi8A_eth*
+- 🦾 **Perfil:** *Novato*
+- 💬 **work smart no hard**: *-*
 
 ## Observaciones
 
