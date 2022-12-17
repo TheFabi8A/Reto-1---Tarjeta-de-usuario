@@ -104,10 +104,6 @@ p {
   animation-play-state: paused;
 }
 
-.img-profile-container:hover {
-  animation-play-state: running;
-}
-
 @keyframes image-profile {
   0% {
     transform: rotate(-20deg);
@@ -206,6 +202,10 @@ p {
   color: var(--color-brown);
   font-weight: 800;
   font-style: italic;
+}
+
+.img-profile-container:hover {
+  animation-play-state: running;
 }
 
 .footer-item:first-child {
