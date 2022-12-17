@@ -2,9 +2,9 @@ body {
   background:
     linear-gradient(
       45deg,
-      var(--background--color--pink),
-      var(--background--color--yellow),
-      var(--background--color--red)
+      var(--color-pink),
+      var(--color-yellow),
+      var(--color-red)
     );
   height: 100vh;
 }
@@ -29,9 +29,9 @@ p {
 }
 
 :root {
-  --background--color--red: #ff3867;
-  --background--color--yellow: #ffc873;
-  --background--color--pink: #d37ec6;
+  --color-red: #ff3867;
+  --color-yellow: #ffc873;
+  --color-pink: #d37ec6;
   --button-color-blue: #2d7cbf;
   --color-brown: #a05d5d;
   --color-gray: #888;
@@ -44,22 +44,22 @@ p {
   fill: var(--color-gray);
 }
 
-.no_select {
+.no-select {
   user-select: none;
 }
 
 .picture-background-card {
   max-width: 450px;
   min-height: 200px;
-  background-image: url(./assets/pexels-kevin-ku-577585.jpg);
+  background-image: url("./assets/pexels-kevin-ku-577585.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: right center;
-  border-bottom: 5px solid var(--background--color--pink);
+  border-bottom: 5px solid var(--color-pink);
 }
 
 .container-card {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   overflow: hidden;
   position: relative;
   max-height: 1000px;
@@ -68,8 +68,6 @@ p {
   border-radius: 25px;
   margin: 0 auto;
   text-align: center;
-  border-radius: 25px;
-  background: #fff;
   box-shadow:
     inset -5px -5px 30px var(--color-gray),
     inset 10px 10px 30px transparent;
@@ -82,16 +80,16 @@ p {
   cursor: pointer;
   width: 128px;
   height: 128px;
-  border: 5px solid var(--background--color--pink);
+  border: 5px solid var(--color-pink);
   border-radius: 50%;
   overflow: hidden;
   transform: rotate(-20deg);
   background:
     linear-gradient(
       45deg,
-      var(--background--color--pink),
-      var(--background--color--yellow),
-      var(--background--color--red)
+      var(--color-pink),
+      var(--color-yellow),
+      var(--color-red)
     );
 }
 
@@ -106,10 +104,6 @@ p {
   align-items: center;
   justify-items: center;
   justify-content: space-evenly;
-}
-
-.container-profile__flex-item {
-  margin: 2.5px 0;
 }
 
 .name-profile {
@@ -150,7 +144,7 @@ p {
   align-items: center;
 }
 
-.footer-container__flex-item {
+.footer-item {
   min-width: 150px;
   box-sizing: border-box;
   border-top: 2.5px solid var(--color-gray-border);
@@ -178,7 +172,7 @@ p {
   animation-direction: normal;
 }
 
-.footer-container__flex-item:first-child {
+.footer-item:first-child {
   border-left: none;
 }
 
@@ -213,22 +207,22 @@ p {
 }
 
 @media screen and (max-width: 465px) {
-  .footer-container__flex-item:first-child {
+  .footer-item:first-child {
     flex-grow: 1;
   }
 
-  .footer-container__flex-item:nth-child(2) {
+  .footer-item:nth-child(2) {
     flex-grow: 1;
   }
 
-  .footer-container__flex-item:nth-child(3) {
+  .footer-item:nth-child(3) {
     flex-grow: 1;
     border-left: none;
   }
 }
 
 @media screen and (max-width: 315px) {
-  .footer-container__flex-item:nth-child(2) {
+  .footer-item:nth-child(2) {
     border-left: none;
   }
 }
