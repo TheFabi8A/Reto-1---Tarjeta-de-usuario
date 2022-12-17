@@ -1,10 +1,11 @@
 body {
-  background: linear-gradient(
-    45deg,
-    var(--background--color--pink),
-    var(--background--color--yellow),
-    var(--background--color--red)
-  );
+  background:
+    linear-gradient(
+      45deg,
+      var(--background--color--pink),
+      var(--background--color--yellow),
+      var(--background--color--red)
+    );
   height: 100vh;
 }
 
@@ -13,16 +14,17 @@ p {
 }
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
-  src: local(
+  src:
+    local(
       "Montserrat-VariableFont_wght",
       "Montserrat-Italic-VariableFont_wght"
     ),
     url("../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
     url("../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf")
-      format("truetype"),
+    format("truetype"),
     url("../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 
@@ -32,7 +34,7 @@ p {
   --background--color--pink: #d37ec6;
   --button-color-blue: #2d7cbf;
   --color-brown: #a05d5d;
-  --color-gray: #888888;
+  --color-gray: #888;
   --color-gray-border: #8888884c;
 }
 
@@ -57,7 +59,7 @@ p {
 }
 
 .container-card {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   overflow: hidden;
   position: relative;
   max-height: 1000px;
@@ -67,8 +69,9 @@ p {
   margin: 0 auto;
   text-align: center;
   border-radius: 25px;
-  background: #ffffff;
-  box-shadow: inset -5px -5px 30px var(--color-gray),
+  background: #fff;
+  box-shadow:
+    inset -5px -5px 30px var(--color-gray),
     inset 10px 10px 30px transparent;
 }
 
@@ -83,12 +86,13 @@ p {
   border-radius: 50%;
   overflow: hidden;
   transform: rotate(-20deg);
-  background: linear-gradient(
-    45deg,
-    var(--background--color--pink),
-    var(--background--color--yellow),
-    var(--background--color--red)
-  );
+  background:
+    linear-gradient(
+      45deg,
+      var(--background--color--pink),
+      var(--background--color--yellow),
+      var(--background--color--red)
+    );
 }
 
 .img-profile {
@@ -123,7 +127,7 @@ p {
 .description-profile {
   text-align: left;
   padding: 0 25px;
-  margin: 30px 0 0 0;
+  margin: 30px 0 0;
 }
 
 .button-follow {
@@ -135,7 +139,7 @@ p {
   font-weight: 300;
   color: var(--button-color-blue);
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 30px 0;
 }
 
@@ -182,21 +186,27 @@ p {
   0% {
     transform: rotate(-20deg);
   }
+
   16% {
     transform: rotate(30deg);
   }
+
   32% {
     transform: rotate(-20deg);
   }
+
   48% {
     transform: rotate(20deg);
   }
+
   64% {
     transform: rotate(-20deg);
   }
+
   80% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -206,9 +216,11 @@ p {
   .footer-container__flex-item:first-child {
     flex-grow: 1;
   }
+
   .footer-container__flex-item:nth-child(2) {
     flex-grow: 1;
   }
+
   .footer-container__flex-item:nth-child(3) {
     flex-grow: 1;
     border-left: none;
@@ -216,7 +228,7 @@ p {
 }
 
 @media screen and (max-width: 315px) {
-  .footer-container__flex-item:nth-child(2)  {
+  .footer-container__flex-item:nth-child(2) {
     border-left: none;
   }
 }
