@@ -1,6 +1,7 @@
 {
   "extends": "stylelint-config-standard",
   "customSyntax": "postcss-syntax",
+  "ignoreFiles": ["index-dist.css"],
   "rules": {
     "declaration-colon-newline-after": "always-multi-line",
     "selector-type-no-unknown": null,
